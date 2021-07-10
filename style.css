@@ -1,0 +1,14 @@
+body{
+    position: absolute;
+    box-sizing: border-box;
+    position: absolute;
+    width: 441px;
+    height: 500px;
+    text-align: center;
+    top: 50px;
+    left: 450px;
+    
+    background: url(bg.jpg);
+    background-size: cover;
+    filter: blur(0.1px);
+}
