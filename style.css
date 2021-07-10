@@ -71,4 +71,7 @@ button{
 button:hover{
     color:darkblue;
 }
+::placeholder{
+    color: beige;
+}     
 
