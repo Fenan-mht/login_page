@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="/style.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css"  media="screen">
         <title>Flowius Login page </title>
     </head>
     <body>
-        <div class="wrapper">
-            <h1>Sign in</h1>
-            <form action ="">
-                <label For="Email_adress"> Email
+      <div class="loginbox">
+        <img src=".//flowius_logo_2.png" class="logo"> 
+            <div class="form">
+                <label For="Email_adress">
                     <input id="Email_adress" name="Email" type="email" required
-                    placeholder="yourname@example.com">
-                </label>
+                    placeholder="Email">
+                </label> <br>
+                </div>
+                <div class="form">
                 <label For="password" >
-                    Password
-                    <input id="password" name="password" type="password" 
-                    placeholder="******"
-                    required>
-                </label>
                 
-            </form>
-        </div>
+                    <input id="password" name="password" type="password" 
+                    placeholder="Password"
+                    required>
+                </label><br>
+            </div>
+            <div>
+                <a href="#" class="forgot" >Forgot your password?</a>
+            </div><br>
+            <div class="btn1" >
 
-
-
-
-
-
-
-    </body>
-   
-    
-    
-    
-
-    
-</html>
+                   <button submit>Login</button><br>
+            </div>
+            <div class="btn2">
+                <button>Register</button>
+            </div>
+     </body>
